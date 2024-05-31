@@ -86,3 +86,35 @@ After the uploading finished the board will be disconnected from the software so
 
 Here's my hex file for blinking LED on pin B9
 
+[Blue Pill Pin B9 Blinking](https://github.com/Haj4li/STM32-St-Link-V2-Setup/blob/main/stlinksetup_blinkB9.hex)
+
+And here's the code for Keil
+
+```c
+#include "stm32f1xx_hal.h"
+GPIO_InitTypeDef GPIO_InitStruct;
+int main(void)
+{
+  // Initialize the HAL library
+  HAL_Init();
+
+  // Enable the clock for the GPIO port B
+  __HAL_RCC_GPIOB_CLK_ENABLE();
+  // Configure the GPIO pin for PB9
+  GPIO_InitStruct.Pin = GPIO_PIN_9;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+  while (1)
+  {
+    // Turn on PB9
+    HAL_GPIO_WritePin(GPIOB, GPIO_PIN_9, GPIO_PIN_SET);
+    HAL_Delay(500);
+
+    // Turn off PB9
+    HAL_GPIO_WritePin(GPIOB, GPIO_PIN_9, GPIO_PIN_RESET);
+    HAL_Delay(500);
+  }
+}
+```
