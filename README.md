@@ -27,5 +27,13 @@ If it's not your first time or got any error like this
 
 ![image](https://github.com/Haj4li/STM32-St-Link-V2-Setup/assets/48994331/41b981f9-5ca3-46ee-90b3-2e3e7b172d77)
 
-click on OK and reconnect the device then try Device Connect if that didn't fix the issue check driver installations.
+Click on OK and reconnect the device then try Device Connect if that didn't fix the issue check driver installations.
+
+Now everything is ready for connecting the Blue Pill board to the St-Link/V2
+Let's take a look on Blue Pill pinout [Source](https://deepbluembedded.com/stm32-blue-pill-pinout-programming-guide/):
+
+![Bluepillpinout](https://github.com/Haj4li/STM32-St-Link-V2-Setup/assets/48994331/186d171e-1327-409a-8588-e9218d19f4f3)
+
+To connect it to the st-link we need 6 jumper wire
+
 
