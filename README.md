@@ -42,3 +42,6 @@ What we do need are only this pins
 
 ![image](https://github.com/Haj4li/STM32-St-Link-V2-Setup/assets/48994331/6e3789f8-5c0d-4276-93c5-0866c56a31d6)
 
+So we need 6 jumper wires and connect each pins like this image (sorry for bad drawing hope you manage the do the wiring)
+
+![image](https://github.com/Haj4li/STM32-St-Link-V2-Setup/assets/48994331/656bd86d-e04d-4edd-abcd-97fad86e8d4e)
