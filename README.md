@@ -3,6 +3,13 @@ STM32 St Link V2 Setup (Blue Pill STM32F103C8T6)
 
 Hello! this is a simple way to setup ST Link/V2 for a blue pill board (or anything else)
 
+
+
+https://github.com/Haj4li/STM32-St-Link-V2-Setup/assets/48994331/9838a347-a2d4-49e9-b4e5-02c769e5ac0a
+
+
+
+
 St Link V2:
 ![StLinkV2Image](https://github.com/Haj4li/STM32-St-Link-V2-Setup/assets/48994331/30d26258-2e71-4fc8-a434-a0225fc6074b)
 
