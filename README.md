@@ -34,6 +34,11 @@ Let's take a look on Blue Pill pinout [Source](https://deepbluembedded.com/stm32
 
 ![Bluepillpinout](https://github.com/Haj4li/STM32-St-Link-V2-Setup/assets/48994331/186d171e-1327-409a-8588-e9218d19f4f3)
 
-To connect it to the st-link we need 6 jumper wire
+And here's the pinout for St-Link
 
+![image](https://github.com/Haj4li/STM32-St-Link-V2-Setup/assets/48994331/edd9d453-dec0-47fc-a145-cc9fc14e1cb6)
+
+What we do need are only this pins
+
+![image](https://github.com/Haj4li/STM32-St-Link-V2-Setup/assets/48994331/6e3789f8-5c0d-4276-93c5-0866c56a31d6)
 
